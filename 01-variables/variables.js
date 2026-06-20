@@ -1,11 +1,12 @@
-const company = 'OpenAI';
-const tool = 'k6';
-let testCount = 1;
+const baseUrl = 'https://restful-booker.herokuapp.com';
+const userName = 'admin';
 
-console.log(company);
-console.log(tool);
-console.log(testCount);
+let bookingCount = 5;
 
-testCount = 2;
+console.log(baseUrl);
+console.log(userName);
+console.log(bookingCount);
 
-console.log(testCount);
+bookingCount = 15;
+
+console.log(bookingCount);
