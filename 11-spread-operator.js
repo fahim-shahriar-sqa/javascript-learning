@@ -7,4 +7,4 @@ const authenticateHeaders = {
     Cookie: "token=abc123"
 };
 
-console.log(authenticateHeaders);
+console.log(authenticateHeaders);   
